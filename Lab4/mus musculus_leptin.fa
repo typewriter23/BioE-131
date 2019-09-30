@@ -1,0 +1,1809 @@
+Seq-entry ::= set {
+  level 1,
+  class nuc-prot,
+  descr {
+    source {
+      genome genomic,
+      org {
+        taxname "Mus musculus",
+        common "house mouse",
+        db {
+          {
+            db "taxon",
+            tag id 10090
+          }
+        },
+        orgname {
+          name binomial {
+            genus "Mus",
+            species "musculus"
+          },
+          attrib "specified",
+          mod {
+            {
+              subtype strain,
+              subname "C57BL/6"
+            }
+          },
+          lineage "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata;
+ Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+ Myomorpha; Muroidea; Muridae; Murinae; Mus; Mus",
+          gcode 1,
+          mgcode 2,
+          div "ROD"
+        }
+      },
+      subtype {
+        {
+          subtype chromosome,
+          name "6"
+        },
+        {
+          subtype map,
+          name "6 12.3 cM"
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 31147543,
+        article {
+          title {
+            name "Adipose HuR protects against diet-induced obesity and
+ insulin resistance."
+          },
+          authors {
+            names std {
+              {
+                name ml "Li J",
+                affil str "The Key Laboratory of Cardiovascular Remodeling and
+ Function Research, Chinese Ministry of Education, Chinese National Health
+ Commission and Chinese Academy of Medical Sciences, The State and Shandong
+ Province Joint Key Laboratory of Translational Cardiovascular Medicine,
+ Department of Cardiology, Qilu Hospital of Shandong University, Jinan,
+ 250012, China."
+              },
+              {
+                name ml "Gong L",
+                affil str "Department of Traditional Chinese Integrated
+ Western Medicine, Qilu Hospital of Shandong University, Jinan, 250012, China."
+              },
+              {
+                name ml "Liu S",
+                affil str "Department of General Surgery, Qilu Hospital of
+ Shandong University, Jinan, 250012, China."
+              },
+              {
+                name ml "Zhang Y",
+                affil str "The Key Laboratory of Cardiovascular Remodeling and
+ Function Research, Chinese Ministry of Education, Chinese National Health
+ Commission and Chinese Academy of Medical Sciences, The State and Shandong
+ Province Joint Key Laboratory of Translational Cardiovascular Medicine,
+ Department of Cardiology, Qilu Hospital of Shandong University, Jinan,
+ 250012, China."
+              },
+              {
+                name ml "Zhang C",
+                affil str "The Key Laboratory of Cardiovascular Remodeling and
+ Function Research, Chinese Ministry of Education, Chinese National Health
+ Commission and Chinese Academy of Medical Sciences, The State and Shandong
+ Province Joint Key Laboratory of Translational Cardiovascular Medicine,
+ Department of Cardiology, Qilu Hospital of Shandong University, Jinan,
+ 250012, China."
+              },
+              {
+                name ml "Tian M",
+                affil str "The Key Laboratory of Cardiovascular Remodeling and
+ Function Research, Chinese Ministry of Education, Chinese National Health
+ Commission and Chinese Academy of Medical Sciences, The State and Shandong
+ Province Joint Key Laboratory of Translational Cardiovascular Medicine,
+ Department of Cardiology, Qilu Hospital of Shandong University, Jinan,
+ 250012, China."
+              },
+              {
+                name ml "Lu H",
+                affil str "The Key Laboratory of Cardiovascular Remodeling and
+ Function Research, Chinese Ministry of Education, Chinese National Health
+ Commission and Chinese Academy of Medical Sciences, The State and Shandong
+ Province Joint Key Laboratory of Translational Cardiovascular Medicine,
+ Department of Cardiology, Qilu Hospital of Shandong University, Jinan,
+ 250012, China."
+              },
+              {
+                name ml "Bu P",
+                affil str "The Key Laboratory of Cardiovascular Remodeling and
+ Function Research, Chinese Ministry of Education, Chinese National Health
+ Commission and Chinese Academy of Medical Sciences, The State and Shandong
+ Province Joint Key Laboratory of Translational Cardiovascular Medicine,
+ Department of Cardiology, Qilu Hospital of Shandong University, Jinan,
+ 250012, China."
+              },
+              {
+                name ml "Yang J",
+                affil str "The Key Laboratory of Cardiovascular Remodeling and
+ Function Research, Chinese Ministry of Education, Chinese National Health
+ Commission and Chinese Academy of Medical Sciences, The State and Shandong
+ Province Joint Key Laboratory of Translational Cardiovascular Medicine,
+ Department of Cardiology, Qilu Hospital of Shandong University, Jinan,
+ 250012, China."
+              },
+              {
+                name ml "Ouyang C",
+                affil str "School of Pharmacy, Hubei University of Science and
+ Technology, Xianning, 437100, Hubei, China."
+              },
+              {
+                name ml "Jiang X",
+                affil str "Department of General Surgery, Qilu Hospital of
+ Shandong University, Jinan, 250012, China."
+              },
+              {
+                name ml "Wu J",
+                affil str "School of Pharmacy, Hubei University of Science and
+ Technology, Xianning, 437100, Hubei, China."
+              },
+              {
+                name ml "Zhang Y",
+                affil str "The Key Laboratory of Cardiovascular Remodeling and
+ Function Research, Chinese Ministry of Education, Chinese National Health
+ Commission and Chinese Academy of Medical Sciences, The State and Shandong
+ Province Joint Key Laboratory of Translational Cardiovascular Medicine,
+ Department of Cardiology, Qilu Hospital of Shandong University, Jinan,
+ 250012, China."
+              },
+              {
+                name ml "Min Q",
+                affil str "School of Pharmacy, Hubei University of Science and
+ Technology, Xianning, 437100, Hubei, China. baimin0628@163.com."
+              },
+              {
+                name ml "Zhang C",
+                affil str "The Key Laboratory of Cardiovascular Remodeling and
+ Function Research, Chinese Ministry of Education, Chinese National Health
+ Commission and Chinese Academy of Medical Sciences, The State and Shandong
+ Province Joint Key Laboratory of Translational Cardiovascular Medicine,
+ Department of Cardiology, Qilu Hospital of Shandong University, Jinan,
+ 250012, China. zhangc@sdu.edu.cn."
+              },
+              {
+                name ml "Zhang W",
+                affil str "The Key Laboratory of Cardiovascular Remodeling and
+ Function Research, Chinese Ministry of Education, Chinese National Health
+ Commission and Chinese Academy of Medical Sciences, The State and Shandong
+ Province Joint Key Laboratory of Translational Cardiovascular Medicine,
+ Department of Cardiology, Qilu Hospital of Shandong University, Jinan,
+ 250012, China. zhangwencheng@sdu.edu.cn.; School of Pharmacy, Hubei
+ University of Science and Technology, Xianning, 437100, Hubei, China.
+ zhangwencheng@sdu.edu.cn."
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Nat Commun",
+              ml-jta "Nat Commun",
+              issn "2041-1723",
+              name "Nature communications"
+            },
+            imp {
+              date std {
+                year 2019,
+                month 5,
+                day 30
+              },
+              volume "10",
+              issue "1",
+              pages "2375",
+              language "eng",
+              pubstatus epublish,
+              history {
+                {
+                  pubstatus received,
+                  date std {
+                    year 2018,
+                    month 10,
+                    day 1
+                  }
+                },
+                {
+                  pubstatus accepted,
+                  date std {
+                    year 2019,
+                    month 5,
+                    day 6
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2019,
+                    month 6,
+                    day 1,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2019,
+                    month 5,
+                    day 31,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2019,
+                    month 6,
+                    day 18,
+                    hour 6,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 31147543,
+            doi "10.1038/s41467-019-10348-0",
+            pii "10.1038/s41467-019-10348-0",
+            other {
+              db "pmc",
+              tag str "PMC6542850"
+            },
+            other {
+              db "ELocationID doi",
+              tag str "10.1038/s41467-019-10348-0"
+            }
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 31085646,
+        article {
+          title {
+            name "Leptin in hippocampus mediates benefits of mild exercise by
+ an antioxidant on neurogenesis and memory."
+          },
+          authors {
+            names std {
+              {
+                name ml "Yook JS",
+                affil str "Laboratory of Exercise Biochemistry and
+ Neuroendocrinology, Faculty of Health and Sport Sciences, University of
+ Tsukuba, 305-8574 Tsukuba, Ibaraki, Japan.; Division of Sport Neuroscience,
+ Advanced Research Initiative for Human High Performance (ARIHHP), Faculty of
+ Health and Sport Sciences, University of Tsukuba, 305-8574 Tsukuba, Ibaraki,
+ Japan."
+              },
+              {
+                name ml "Rakwal R",
+                affil str "Laboratory of Exercise Biochemistry and
+ Neuroendocrinology, Faculty of Health and Sport Sciences, University of
+ Tsukuba, 305-8574 Tsukuba, Ibaraki, Japan."
+              },
+              {
+                name ml "Shibato J",
+                affil str "Laboratory of Exercise Biochemistry and
+ Neuroendocrinology, Faculty of Health and Sport Sciences, University of
+ Tsukuba, 305-8574 Tsukuba, Ibaraki, Japan."
+              },
+              {
+                name ml "Takahashi K",
+                affil str "Laboratory of Exercise Biochemistry and
+ Neuroendocrinology, Faculty of Health and Sport Sciences, University of
+ Tsukuba, 305-8574 Tsukuba, Ibaraki, Japan.; Division of Sport Neuroscience,
+ Advanced Research Initiative for Human High Performance (ARIHHP), Faculty of
+ Health and Sport Sciences, University of Tsukuba, 305-8574 Tsukuba, Ibaraki,
+ Japan."
+              },
+              {
+                name ml "Koizumi H",
+                affil str "Laboratory of Exercise Biochemistry and
+ Neuroendocrinology, Faculty of Health and Sport Sciences, University of
+ Tsukuba, 305-8574 Tsukuba, Ibaraki, Japan.; Division of Sport Neuroscience,
+ Advanced Research Initiative for Human High Performance (ARIHHP), Faculty of
+ Health and Sport Sciences, University of Tsukuba, 305-8574 Tsukuba, Ibaraki,
+ Japan."
+              },
+              {
+                name ml "Shima T",
+                affil str "Laboratory of Exercise Biochemistry and
+ Neuroendocrinology, Faculty of Health and Sport Sciences, University of
+ Tsukuba, 305-8574 Tsukuba, Ibaraki, Japan."
+              },
+              {
+                name ml "Ikemoto MJ",
+                affil str "Molecular Composite Medicine Research Group,
+ Biomedical Research Institute, National Institute of Advanced Industrial
+ Science and Technology (AIST), 305-8566 Tsukuba, Ibaraki, Japan.; Graduate
+ School of Science, Toho University, Funabashi, 274-8510 Chiba, Japan."
+              },
+              {
+                name ml "Oharomari LK",
+                affil str "Laboratory of Exercise Biochemistry and
+ Neuroendocrinology, Faculty of Health and Sport Sciences, University of
+ Tsukuba, 305-8574 Tsukuba, Ibaraki, Japan.; Division of Sport Neuroscience,
+ Advanced Research Initiative for Human High Performance (ARIHHP), Faculty of
+ Health and Sport Sciences, University of Tsukuba, 305-8574 Tsukuba, Ibaraki,
+ Japan."
+              },
+              {
+                name ml "McEwen BS",
+                affil str "Laboratory of Neuroendocrinology, The Rockefeller
+ University, New York, NY 10065 soya.hideaki.gt@u.tsukuba.ac.jp
+ mcewen@mail.rockefeller.edu."
+              },
+              {
+                name ml "Soya H",
+                affil str "Laboratory of Exercise Biochemistry and
+ Neuroendocrinology, Faculty of Health and Sport Sciences, University of
+ Tsukuba, 305-8574 Tsukuba, Ibaraki, Japan; soya.hideaki.gt@u.tsukuba.ac.jp
+ mcewen@mail.rockefeller.edu.; Division of Sport Neuroscience, Advanced
+ Research Initiative for Human High Performance (ARIHHP), Faculty of Health
+ and Sport Sciences, University of Tsukuba, 305-8574 Tsukuba, Ibaraki, Japan."
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Proc. Natl. Acad. Sci. U.S.A.",
+              ml-jta "Proc Natl Acad Sci U S A",
+              issn "1091-6490",
+              name "Proceedings of the National Academy of Sciences of the
+ United States of America"
+            },
+            imp {
+              date std {
+                year 2019,
+                month 5,
+                day 28
+              },
+              volume "116",
+              issue "22",
+              pages "10988-10993",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus other,
+                  date std {
+                    year 2019,
+                    month 11,
+                    day 13
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2019,
+                    month 5,
+                    day 16,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2019,
+                    month 5,
+                    day 16,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2019,
+                    month 5,
+                    day 16,
+                    hour 6,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 31085646,
+            pii "1815197116",
+            doi "10.1073/pnas.1815197116",
+            other {
+              db "pmc",
+              tag str "PMC6561194"
+            },
+            other {
+              db "ELocationID doi",
+              tag str "10.1073/pnas.1815197116"
+            }
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 30926645,
+        article {
+          title {
+            name "Leptin Promotes Monosodium Urate Crystal-Induced
+ Inflammation in Human and Murine Models of Gout."
+          },
+          authors {
+            names std {
+              {
+                name ml "Yu Y",
+                affil str "Division of Rheumatology, Huashan Hospital, Fudan
+ University, Shanghai 200040, China.; Institute of Rheumatology, Immunology
+ and Allergy, Fudan University, Shanghai 200040, China; and."
+              },
+              {
+                name ml "Yang J",
+                affil str "Blood Engineering Laboratory, Shanghai Blood
+ Center, Shanghai 200051, China."
+              },
+              {
+                name ml "Fu S",
+                affil str "Division of Rheumatology, Huashan Hospital, Fudan
+ University, Shanghai 200040, China.; Institute of Rheumatology, Immunology
+ and Allergy, Fudan University, Shanghai 200040, China; and."
+              },
+              {
+                name ml "Xue Y",
+                affil str "Division of Rheumatology, Huashan Hospital, Fudan
+ University, Shanghai 200040, China.; Institute of Rheumatology, Immunology
+ and Allergy, Fudan University, Shanghai 200040, China; and."
+              },
+              {
+                name ml "Liang M",
+                affil str "Division of Rheumatology, Huashan Hospital, Fudan
+ University, Shanghai 200040, China.; Institute of Rheumatology, Immunology
+ and Allergy, Fudan University, Shanghai 200040, China; and."
+              },
+              {
+                name ml "Xuan D",
+                affil str "Division of Rheumatology, Huashan Hospital, Fudan
+ University, Shanghai 200040, China.; Institute of Rheumatology, Immunology
+ and Allergy, Fudan University, Shanghai 200040, China; and."
+              },
+              {
+                name ml "Zhu X",
+                affil str "Division of Rheumatology, Huashan Hospital, Fudan
+ University, Shanghai 200040, China.; Institute of Rheumatology, Immunology
+ and Allergy, Fudan University, Shanghai 200040, China; and."
+              },
+              {
+                name ml "Wan W",
+                affil str "Division of Rheumatology, Huashan Hospital, Fudan
+ University, Shanghai 200040, China.; Institute of Rheumatology, Immunology
+ and Allergy, Fudan University, Shanghai 200040, China; and."
+              },
+              {
+                name ml "Lv L",
+                affil str "Division of Rheumatology, Huashan Hospital, Fudan
+ University, Shanghai 200040, China; hjzou@fudan.edu.cn
+ huashanlvling@sina.com.; Institute of Rheumatology, Immunology and Allergy,
+ Fudan University, Shanghai 200040, China; and."
+              },
+              {
+                name ml "Zou H",
+                affil str "Division of Rheumatology, Huashan Hospital, Fudan
+ University, Shanghai 200040, China; hjzou@fudan.edu.cn
+ huashanlvling@sina.com.; Institute of Rheumatology, Immunology and Allergy,
+ Fudan University, Shanghai 200040, China; and."
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "J. Immunol.",
+              ml-jta "J Immunol",
+              issn "1550-6606",
+              name "Journal of immunology (Baltimore, Md. : 1950)"
+            },
+            imp {
+              date std {
+                year 2019,
+                month 5,
+                day 1
+              },
+              volume "202",
+              issue "9",
+              pages "2728-2736",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus received,
+                  date std {
+                    year 2018,
+                    month 8,
+                    day 8
+                  }
+                },
+                {
+                  pubstatus accepted,
+                  date std {
+                    year 2019,
+                    month 2,
+                    day 24
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2019,
+                    month 3,
+                    day 31,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2019,
+                    month 3,
+                    day 31,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2019,
+                    month 3,
+                    day 31,
+                    hour 6,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 30926645,
+            pii "jimmunol.1801097",
+            doi "10.4049/jimmunol.1801097",
+            other {
+              db "ELocationID doi",
+              tag str "10.4049/jimmunol.1801097"
+            }
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 30905621,
+        article {
+          title {
+            name "O-GlcNAcylation disrupts STRA6-retinol signals in kidneys of
+ diabetes."
+          },
+          authors {
+            names std {
+              {
+                name ml "Chen CH",
+                affil str "Graduate Institute of Medicine, College of
+ Medicine, Kaohsiung Medical University, Kaohsiung, Taiwan; Division of
+ Endocrinology and Metabolism, Kaohsiung Medical University Hospital,
+ Kaohsiung Medical University, Kaohsiung, Taiwan."
+              },
+              {
+                name ml "Lin KD",
+                affil str "Division of Endocrinology and Metabolism, Kaohsiung
+ Medical University Hospital, Kaohsiung Medical University, Kaohsiung, Taiwan;
+ School of Medicine, College of Medicine, Kaohsiung Medical University,
+ Kaohsiung, Taiwan."
+              },
+              {
+                name ml "Ke LY",
+                affil str "Lipid Science and Aging Research Center, Kaohsiung
+ Medical University, Kaohsiung, Taiwan; Department of Medical Laboratory
+ Science and Biotechnology, College of Health Sciences, Kaohsiung Medical
+ University, Kaohsiung, Taiwan."
+              },
+              {
+                name ml "Liang CJ",
+                affil str "Lipid Science and Aging Research Center, Kaohsiung
+ Medical University, Kaohsiung, Taiwan."
+              },
+              {
+                name ml "Kuo WC",
+                affil str "Lipid Science and Aging Research Center, Kaohsiung
+ Medical University, Kaohsiung, Taiwan."
+              },
+              {
+                name ml "Lee MY",
+                affil str "Graduate Institute of Medicine, College of
+ Medicine, Kaohsiung Medical University, Kaohsiung, Taiwan; Division of
+ Endocrinology and Metabolism, Kaohsiung Medical University Hospital,
+ Kaohsiung Medical University, Kaohsiung, Taiwan."
+              },
+              {
+                name ml "Lee YL",
+                affil str "Graduate Institute of Medicine, College of
+ Medicine, Kaohsiung Medical University, Kaohsiung, Taiwan; Division of
+ Endocrinology and Metabolism, Kaohsiung Medical University Hospital,
+ Kaohsiung Medical University, Kaohsiung, Taiwan."
+              },
+              {
+                name ml "Hsiao PJ",
+                affil str "Division of Endocrinology and Metabolism, Kaohsiung
+ Medical University Hospital, Kaohsiung Medical University, Kaohsiung, Taiwan;
+ School of Medicine, College of Medicine, Kaohsiung Medical University,
+ Kaohsiung, Taiwan."
+              },
+              {
+                name ml "Hsu CC",
+                affil str "Institute of Population Health Sciences, National
+ Health Research Institutes, Zhunan, Taiwan."
+              },
+              {
+                name ml "Shin SJ",
+                affil str "Graduate Institute of Medicine, College of
+ Medicine, Kaohsiung Medical University, Kaohsiung, Taiwan; Division of
+ Endocrinology and Metabolism, Kaohsiung Medical University Hospital,
+ Kaohsiung Medical University, Kaohsiung, Taiwan; School of Medicine, College
+ of Medicine, Kaohsiung Medical University, Kaohsiung, Taiwan; Lipid Science
+ and Aging Research Center, Kaohsiung Medical University, Kaohsiung, Taiwan;
+ Institute of Medical Science and Technology, National Sun Yat-Sen University,
+ Kaohsiung, Taiwan. Electronic address: sjshin@kmu.edu.tw."
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Biochim Biophys Acta Gen Subj",
+              ml-jta "Biochim Biophys Acta Gen Subj",
+              issn "1872-8006",
+              name "Biochimica et biophysica acta. General subjects"
+            },
+            imp {
+              date std {
+                year 2019,
+                month 6
+              },
+              volume "1863",
+              issue "6",
+              pages "1059-1069",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus received,
+                  date std {
+                    year 2018,
+                    month 9,
+                    day 15
+                  }
+                },
+                {
+                  pubstatus revised,
+                  date std {
+                    year 2019,
+                    month 3,
+                    day 19
+                  }
+                },
+                {
+                  pubstatus accepted,
+                  date std {
+                    year 2019,
+                    month 3,
+                    day 20
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2019,
+                    month 3,
+                    day 25,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2019,
+                    month 3,
+                    day 25,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2019,
+                    month 3,
+                    day 26,
+                    hour 6,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 30905621,
+            pii "S0304-4165(19)30070-4",
+            doi "10.1016/j.bbagen.2019.03.014",
+            other {
+              db "ELocationID pii",
+              tag str "S0304-4165(19)30070-4"
+            },
+            other {
+              db "ELocationID doi",
+              tag str "10.1016/j.bbagen.2019.03.014"
+            }
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 30814508,
+        article {
+          title {
+            name "Hepatic Sdf2l1 controls feeding-induced ER stress and
+ regulates metabolism."
+          },
+          authors {
+            names std {
+              {
+                name ml "Sasako T",
+                affil str "Department of Diabetes and Metabolic Diseases,
+ Graduate School of Medicine, The University of Tokyo, Tokyo, 113-8655,
+ Japan.; Translational Systems Biology and Medicine Initiative (TSBMI), The
+ University of Tokyo, Tokyo, 113-8655, Japan.; Department of Molecular
+ Diabetic Medicine, Diabetes Research Center, National Center for Global
+ Health and Medicine, Tokyo, 162-8655, Japan.; Division for Health Service
+ Promotion, The University of Tokyo, Tokyo, 113-0033, Japan.; Department of
+ Molecular Sciences on Diabetes, Graduate School of Medicine, The University
+ of Tokyo, Tokyo, 113-8655, Japan."
+              },
+              {
+                name ml "Ohsugi M",
+                affil str "Department of Diabetes and Metabolic Diseases,
+ Graduate School of Medicine, The University of Tokyo, Tokyo, 113-8655, Japan."
+              },
+              {
+                name ml "Kubota N",
+                affil str "Department of Diabetes and Metabolic Diseases,
+ Graduate School of Medicine, The University of Tokyo, Tokyo, 113-8655,
+ Japan.; Translational Systems Biology and Medicine Initiative (TSBMI), The
+ University of Tokyo, Tokyo, 113-8655, Japan.; Department of Clinical
+ Nutrition Therapy, The University of Tokyo Hospital, The University of Tokyo,
+ Tokyo, 113-865, Japan."
+              },
+              {
+                name ml "Itoh S",
+                affil str "Department of Diabetes and Metabolic Diseases,
+ Graduate School of Medicine, The University of Tokyo, Tokyo, 113-8655,
+ Japan.; Kowa Company Limited, Nagoya, 460-0003, Japan."
+              },
+              {
+                name ml "Okazaki Y",
+                affil str "Department of Diabetes and Metabolic Diseases,
+ Graduate School of Medicine, The University of Tokyo, Tokyo, 113-8655,
+ Japan.; Department of Molecular Diabetic Medicine, Diabetes Research Center,
+ National Center for Global Health and Medicine, Tokyo, 162-8655, Japan."
+              },
+              {
+                name ml "Terai A",
+                affil str "Department of Diabetes and Metabolic Diseases,
+ Graduate School of Medicine, The University of Tokyo, Tokyo, 113-8655,
+ Japan.; Department of Molecular Diabetic Medicine, Diabetes Research Center,
+ National Center for Global Health and Medicine, Tokyo, 162-8655, Japan."
+              },
+              {
+                name ml "Kubota T",
+                affil str "Department of Diabetes and Metabolic Diseases,
+ Graduate School of Medicine, The University of Tokyo, Tokyo, 113-8655,
+ Japan.; Clinical Nutrition Program, National Institute of Health and
+ Nutrition, Tokyo, 162-8636, Japan.; Division of Cardiovascular Medicine, Toho
+ University Ohashi Medical Center, Tokyo, 143-8541, Japan."
+              },
+              {
+                name ml "Yamashita S",
+                affil str "Department of Systems BioMedicine, Tokyo Medical
+ and Dental University, Tokyo, 113-8510, Japan."
+              },
+              {
+                name ml "Nakatsukasa K",
+                affil str "Division of Biological Sciences, Graduate School of
+ Science, Nagoya University, Nagoya, 464-8601, Japan.; Graduate School of
+ Natural Sciences, Nagoya City University, Nagoya, 464-8601, Japan."
+              },
+              {
+                name ml "Kamura T",
+                affil str "Division of Biological Sciences, Graduate School of
+ Science, Nagoya University, Nagoya, 464-8601, Japan."
+              },
+              {
+                name ml "Iwayama K",
+                affil str "Graduate School of Comprehensive Human Science,
+ University of Tsukuba, Tsukuba, 305-8577, Japan."
+              },
+              {
+                name ml "Tokuyama K",
+                affil str "Graduate School of Comprehensive Human Science,
+ University of Tsukuba, Tsukuba, 305-8577, Japan."
+              },
+              {
+                name ml "Kiyonari H",
+                affil str "Animal Resource Development Unit, RIKEN Center for
+ Life Science Technologies, Kobe, 650-0047, Japan.; Genetic Engineering Team,
+ RIKEN Center for Life Science Technologies, Kobe, 650-0047, Japan."
+              },
+              {
+                name ml "Furuta Y",
+                affil str "Animal Resource Development Unit, RIKEN Center for
+ Life Science Technologies, Kobe, 650-0047, Japan.; Genetic Engineering Team,
+ RIKEN Center for Life Science Technologies, Kobe, 650-0047, Japan."
+              },
+              {
+                name ml "Shibahara J",
+                affil str "Department of Pathology, Graduate School of
+ Medicine, The University of Tokyo, Tokyo, 113-8655, Japan."
+              },
+              {
+                name ml "Fukayama M",
+                affil str "Department of Pathology, Graduate School of
+ Medicine, The University of Tokyo, Tokyo, 113-8655, Japan."
+              },
+              {
+                name ml "Enooku K",
+                affil str "Department of Gastroenterology, Graduate School of
+ Medicine, The University of Tokyo, Tokyo, 113-8655, Japan."
+              },
+              {
+                name ml "Okushin K",
+                affil str "Department of Gastroenterology, Graduate School of
+ Medicine, The University of Tokyo, Tokyo, 113-8655, Japan."
+              },
+              {
+                name ml "Tsutsumi T",
+                affil str "Department of Infectious Disease, Graduate School
+ of Medicine, The University of Tokyo, Tokyo, 113-8655, Japan."
+              },
+              {
+                name ml "Tateishi R",
+                affil str "Department of Gastroenterology, Graduate School of
+ Medicine, The University of Tokyo, Tokyo, 113-8655, Japan."
+              },
+              {
+                name ml "Tobe K",
+                affil str "The First Department of Internal Medicine, Graduate
+ School of Medicine and Pharmaceutical Sciences of Research, The University of
+ Toyama, Toyama, 930-8555, Japan."
+              },
+              {
+                name ml "Asahara H",
+                affil str "Department of Systems BioMedicine, Tokyo Medical
+ and Dental University, Tokyo, 113-8510, Japan."
+              },
+              {
+                name ml "Koike K",
+                affil str "Department of Gastroenterology, Graduate School of
+ Medicine, The University of Tokyo, Tokyo, 113-8655, Japan."
+              },
+              {
+                name ml "Kadowaki T",
+                affil str "Department of Diabetes and Metabolic Diseases,
+ Graduate School of Medicine, The University of Tokyo, Tokyo, 113-8655, Japan.
+ kadowaki-3im@h.u-tokyo.ac.jp.; Translational Systems Biology and Medicine
+ Initiative (TSBMI), The University of Tokyo, Tokyo, 113-8655, Japan.
+ kadowaki-3im@h.u-tokyo.ac.jp.; Department of Prevention of Diabetes and
+ Lifestyle-Related Diseases, Graduate School of Medicine, The University of
+ Tokyo, Tokyo, 113-8655, Japan. kadowaki-3im@h.u-tokyo.ac.jp.; Department of
+ Metabolism and Nutrition, Mizonokuchi Hospital, Faculty of Medicine, Teikyo
+ University, Tokyo, 213-8507, Japan. kadowaki-3im@h.u-tokyo.ac.jp."
+              },
+              {
+                name ml "Ueki K",
+                affil str "Department of Diabetes and Metabolic Diseases,
+ Graduate School of Medicine, The University of Tokyo, Tokyo, 113-8655, Japan.
+ ueki-tky@umin.net.; Translational Systems Biology and Medicine Initiative
+ (TSBMI), The University of Tokyo, Tokyo, 113-8655, Japan. ueki-tky@umin.net.;
+ Department of Molecular Diabetic Medicine, Diabetes Research Center, National
+ Center for Global Health and Medicine, Tokyo, 162-8655, Japan.
+ ueki-tky@umin.net."
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Nat Commun",
+              ml-jta "Nat Commun",
+              issn "2041-1723",
+              name "Nature communications"
+            },
+            imp {
+              date std {
+                year 2019,
+                month 2,
+                day 27
+              },
+              volume "10",
+              issue "1",
+              pages "947",
+              language "eng",
+              pubstatus epublish,
+              history {
+                {
+                  pubstatus received,
+                  date std {
+                    year 2018,
+                    month 3,
+                    day 26
+                  }
+                },
+                {
+                  pubstatus accepted,
+                  date std {
+                    year 2019,
+                    month 1,
+                    day 15
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2019,
+                    month 3,
+                    day 1,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2019,
+                    month 3,
+                    day 1,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2019,
+                    month 4,
+                    day 10,
+                    hour 6,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 30814508,
+            doi "10.1038/s41467-019-08591-6",
+            pii "10.1038/s41467-019-08591-6",
+            other {
+              db "pmc",
+              tag str "PMC6393527"
+            },
+            other {
+              db "ELocationID doi",
+              tag str "10.1038/s41467-019-08591-6"
+            }
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 565045,
+        article {
+          title {
+            name "Thermoregulation and non-shivering thermogenesis in the
+ genetically obese (ob/ob) mouse."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Trayhurn",
+                  first "P",
+                  initials "P."
+                }
+              },
+              {
+                name name {
+                  last "James",
+                  first "W",
+                  initials "W.P."
+                }
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Pflugers Arch.",
+              ml-jta "Pflugers Arch",
+              issn "0031-6768",
+              name "Pflugers Archiv : European journal of physiology"
+            },
+            imp {
+              date std {
+                year 1978,
+                month 2,
+                day 22
+              },
+              volume "373",
+              issue "2",
+              pages "189-193",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1978,
+                    month 2,
+                    day 22
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1978,
+                    month 2,
+                    day 22,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1978,
+                    month 2,
+                    day 22,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 565045,
+            doi "10.1007/bf00584859"
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 508700,
+        article {
+          title {
+            name "The role of thermoregulatory thermogenesis in the
+ development of obesity in genetically-obese (ob/ob) mice pair-fed with lean
+ siblings."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Thurlby",
+                  first "P",
+                  initials "P.L."
+                }
+              },
+              {
+                name name {
+                  last "Trayhurn",
+                  first "P",
+                  initials "P."
+                }
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Br. J. Nutr.",
+              ml-jta "Br J Nutr",
+              issn "0007-1145",
+              name "The British journal of nutrition"
+            },
+            imp {
+              date std {
+                year 1979,
+                month 11
+              },
+              volume "42",
+              issue "3",
+              pages "377-385",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1979,
+                    month 11,
+                    day 1
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1979,
+                    month 11,
+                    day 1,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1979,
+                    month 11,
+                    day 1,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 508700,
+            doi "10.1079/bjn19790127"
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 350680,
+        article {
+          title {
+            name "Obese and diabetes: two mutant genes causing
+ diabetes-obesity syndromes in mice."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Coleman",
+                  first "D",
+                  initials "D.L."
+                }
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Diabetologia",
+              ml-jta "Diabetologia",
+              issn "0012-186X",
+              name "Diabetologia"
+            },
+            imp {
+              date std {
+                year 1978,
+                month 3
+              },
+              volume "14",
+              issue "3",
+              pages "141-148",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1978,
+                    month 3,
+                    day 1
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1978,
+                    month 3,
+                    day 1,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1978,
+                    month 3,
+                    day 1,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 350680,
+            doi "10.1007/bf00429772"
+          }
+        }
+      },
+      comment "Review article"
+    },
+    pub {
+      pub {
+        pmid 223169,
+        article {
+          title {
+            name "Na+,K+-ATPase enzyme units in skeletal muscle and liver of
+ 14-day-old lean and obese (ob/ob) mice."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Lin",
+                  first "M",
+                  initials "M.H."
+                }
+              },
+              {
+                name name {
+                  last "Romsos",
+                  first "D",
+                  initials "D.R."
+                }
+              },
+              {
+                name name {
+                  last "Akera",
+                  first "T",
+                  initials "T."
+                }
+              },
+              {
+                name name {
+                  last "Leveille",
+                  first "G",
+                  initials "G.A."
+                }
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Proc. Soc. Exp. Biol. Med.",
+              ml-jta "Proc Soc Exp Biol Med",
+              issn "0037-9727",
+              name "Proceedings of the Society for Experimental Biology and
+ Medicine. Society for Experimental Biology and Medicine (New York, N.Y.)"
+            },
+            imp {
+              date std {
+                year 1979,
+                month 7
+              },
+              volume "161",
+              issue "3",
+              pages "235-238",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1979,
+                    month 7,
+                    day 1
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1979,
+                    month 7,
+                    day 1,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1979,
+                    month 7,
+                    day 1,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 223169,
+            doi "10.3181/00379727-161-40526"
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 212501,
+        article {
+          title {
+            name "Assignment of the receptor for ecotropic murine leukemia
+ virus to mouse chromosome 5."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Ruddle",
+                  first "N",
+                  initials "N.H."
+                }
+              },
+              {
+                name name {
+                  last "Conta",
+                  first "B",
+                  initials "B.S."
+                }
+              },
+              {
+                name name {
+                  last "Leinwand",
+                  first "L",
+                  initials "L."
+                }
+              },
+              {
+                name name {
+                  last "Kozak",
+                  first "C",
+                  initials "C."
+                }
+              },
+              {
+                name name {
+                  last "Ruddle",
+                  first "F",
+                  initials "F."
+                }
+              },
+              {
+                name name {
+                  last "Besmer",
+                  first "P",
+                  initials "P."
+                }
+              },
+              {
+                name name {
+                  last "Baltimore",
+                  first "D",
+                  initials "D."
+                }
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "J. Exp. Med.",
+              ml-jta "J Exp Med",
+              issn "0022-1007",
+              name "The Journal of experimental medicine"
+            },
+            imp {
+              date std {
+                year 1978,
+                month 8,
+                day 1
+              },
+              volume "148",
+              issue "2",
+              pages "451-465",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1978,
+                    month 8,
+                    day 1
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1978,
+                    month 8,
+                    day 1,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1978,
+                    month 8,
+                    day 1,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 212501,
+            other {
+              db "pmc",
+              tag str "PMC2184946"
+            },
+            doi "10.1084/jem.148.2.451"
+          }
+        }
+      }
+    },
+    comment "~Publication Note:  This RefSeq record includes a subset of the
+ publications that are available for this gene. Please see the Gene record to
+ access additional publications.",
+    user {
+      type str "RefGeneTracking",
+      data {
+        {
+          label str "Status",
+          data str "Validated"
+        },
+        {
+          label str "Assembly",
+          data fields {
+            {
+              label id 0,
+              data fields {
+                {
+                  label str "accession",
+                  data str "AK030984.1"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    user {
+      type str "StructuredComment",
+      data {
+        {
+          label str "StructuredCommentPrefix",
+          data str "##Evidence-Data-START##"
+        },
+        {
+          label str "Transcript exon combination",
+          data str "AK030984.1, HQ166716.1 [ECO:0000332]"
+        },
+        {
+          label str "RNAseq introns",
+          data str "single sample supports all introns SAMN00849374,
+ SAMN00849375 [ECO:0000348]"
+        },
+        {
+          label str "StructuredCommentSuffix",
+          data str "##Evidence-Data-END##"
+        }
+      }
+    },
+    update-date std {
+      year 2019,
+      month 9,
+      day 17
+    }
+  },
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NM_008493",
+          version 3
+        },
+        gi 34328437
+      },
+      descr {
+        title "Mus musculus leptin (Lep), mRNA",
+        molinfo {
+          biomol mRNA
+        },
+        create-date std {
+          year 2000,
+          month 1,
+          day 4
+        }
+      },
+      inst {
+        repr raw,
+        mol rna,
+        length 3257,
+        seq-data ncbi2na '8A8D5E75249E42B9082082354A8A00EE7A2157BB6BD7BA7FAD73
+7B7CEF424B9735202D4A384500574D0853ED14A34384FD11192DACD650922AD1E9FA1F4F5EA7D1
+54F78BFB508E8521DE92DCD04AD74525E5F5403B9E48C94385E88375885D75379E97DD42279D5E
+5D214BA5E48252225E8E9B5E825D1DC75122BAE9FE24A792A7779284F7D04BE8EF257839E0BF40
+A514A75420D3B22A0805FA7D4AADF4A208894EE444D4D3D3F77575EC851535029387510E7E1D0B
+CD4441F4E24428AA525E48AA1DD172F7D242C88C225354D5753B545E75AB13BD75BAB119F679A5
+4A22B8ACA8EAC897FA9EDD22DFEA245B829E4D44449E80754249118E8247CFCFCF793DCFFA3A37
+82425349FFD29FEAAD2528E2829D7AAE79FD0D73E3AB7950A405C3FF8B87A0A0AFA8DF50108B73
+92B267427E177AE1EBFEFDCFB8787739011BF92693E5A89329CAF3CD0092383FED0BB0CECDCEE4
+5E2AC8A3BBC8A8AB828D682EF7783C4CEEEB29FF780AB8A4FF7C5DEE944CBBA7FB802840A2F877
+F5A04FE8BB14A457E8AA70271297FEFA4CF9E274A8B8A9544FE212E2550802AD5EBB23750AFB52
+AF8DD10E6FDF092B21BF939433BAF74DE3EBD3502C815EDD5153DEEA8BFEF52EA0E20347C923AD
+7895EA52479E282E52A55294A79483E57DA9E8A38102A9FABFF53455E4573B453407AAA48D2E22
+847E3A024311FC21E244BF6E749DEDEB9EE272209D140C4CC00D229D3B57BAF215C7469AEC7514
+492559167A0B12E7B7D04AEE0205E278AB84B952A815E7E4B73E4FC4C593F4A913C9351E73AC91
+1EF846A317AADB003080312BE1CD5F3500E7EA1C822FFA3FC8B7FD2932B33F8B33300E2337EA8E
+A950B301382F4FCCFD30C5B3211E7E0BB2FF312EFF0306FB3938086FFC493817B71D39491D0017
+EABFE892FE8DFABFDEF088EBC9F31700530E90129E4A1487A35D25782EE57D494AD315EE8AE26A
+34AFFBAE7088A2FA2B23FE8A378AAE3B8EFF3E847EB3BE0A8E02D404A0B84A821E0885A808B84A
+0B9E2287F3A94402E9F7808D51B944B7A260A76EBA7AED23E77AA7B9CE517EB45D3427A0ED7897
+F6748817E473A7EF548FB807D53390039FAFEBFFFAFFEFFEFF7FFC0C4CCCCEC104904100FFBFCF
+FBB43D0303C38E5D40'H,
+        hist {
+          replaces {
+            date std {
+              year 2003,
+              month 8,
+              day 28
+            },
+            ids {
+              gi 31543117
+            }
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data imp {
+                key "regulatory"
+              },
+              comment "putative",
+              location int {
+                from 3237,
+                to 3242,
+                strand plus,
+                id gi 34328437
+              },
+              qual {
+                {
+                  qual "regulatory_class",
+                  val "polyA_signal_sequence"
+                }
+              }
+            },
+            {
+              data imp {
+                key "polyA_site"
+              },
+              comment "putative",
+              location pnt {
+                point 3256,
+                strand plus,
+                id gi 34328437
+              }
+            },
+            {
+              data gene {
+                locus "Lep",
+                desc "leptin",
+                syn {
+                  "ob",
+                  "obese"
+                }
+              },
+              location int {
+                from 0,
+                to 3256,
+                strand plus,
+                id gi 34328437
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 16846
+                },
+                {
+                  db "MGI",
+                  tag str "MGI:104663"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_032519",
+          version 1
+        },
+        gi 6678678
+      },
+      descr {
+        title "leptin precursor [Mus musculus]",
+        molinfo {
+          biomol peptide
+        },
+        create-date std {
+          year 2000,
+          month 1,
+          day 4
+        }
+      },
+      inst {
+        repr raw,
+        mol aa,
+        length 167,
+        seq-data ncbieaa "MCWRPLCRFLWLWSYLSYVQAVPIQKVQDDTKTLIKTIVTRINDISHTQSVS
+AKQRVTGLDFIPGLHPILSLSKMDQTLAVYQQVLTSLPSQNVLQIANDLENLRDLLHLLAFSKSCSLPQTSGLQKPES
+LDGVLEASLYSTEVVALSRLQGSLQDILQQLDVSPEC"
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "leptin precursor",
+                  "obesity factor"
+                }
+              },
+              location int {
+                from 0,
+                to 166,
+                id gi 6678678
+              }
+            },
+            {
+              data prot {
+                name {
+                  "Leptin"
+                },
+                processed mature
+              },
+              comment "propagated from UniProtKB/Swiss-Prot (P41160.1)",
+              location int {
+                from 21,
+                to 166,
+                id gi 6678678
+              },
+              exp-ev experimental
+            },
+            {
+              data prot {
+                processed signal-peptide
+              },
+              location int {
+                from 0,
+                to 20,
+                id gi 6678678
+              },
+              qual {
+                {
+                  qual "inference",
+                  val "COORDINATES: ab initio prediction:SignalP:4.0"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  annot {
+    {
+      data ftable {
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 1
+            }
+          },
+          product whole gi 6678678,
+          location int {
+            from 59,
+            to 562,
+            strand plus,
+            id gi 34328437
+          },
+          dbxref {
+            {
+              db "CCDS",
+              tag str "CCDS19955.1"
+            }
+          }
+        }
+      }
+    },
+    {
+      name "exons",
+      data ftable {
+        {
+          data imp {
+            key "exon"
+          },
+          location int {
+            from 0,
+            to 27,
+            strand plus,
+            id gi 34328437
+          },
+          qual {
+            {
+              qual "inference",
+              val "alignment:Splign:2.1.0"
+            }
+          }
+        },
+        {
+          data imp {
+            key "exon"
+          },
+          location int {
+            from 28,
+            to 202,
+            strand plus,
+            id gi 34328437
+          },
+          qual {
+            {
+              qual "inference",
+              val "alignment:Splign:2.1.0"
+            }
+          }
+        },
+        {
+          data imp {
+            key "exon"
+          },
+          location int {
+            from 203,
+            to 3256,
+            strand plus,
+            id gi 34328437
+          },
+          qual {
+            {
+              qual "inference",
+              val "alignment:Splign:2.1.0"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
