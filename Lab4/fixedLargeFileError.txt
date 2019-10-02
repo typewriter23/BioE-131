@@ -1,0 +1,167 @@
+    1  ls
+    2  passwd
+    3  nigg
+    4  jupyter notebook --no-browser --port 8473
+    5  tmux new -s 19_9_6_bioE131
+    6  ls
+    7  touch test
+    8  vim test
+    9  ls
+   10  less test
+   11  jupyter notebook --no-browser --port
+   12  ls -a
+   13  vim .bashrc
+   14  source .bashrc
+   15  ls
+   16  jupNotebook 
+   17  ls
+   18  python
+   19  ls
+   20  git clone git@github.com:typewriter23/BioE-131.git
+   21  git clone https://github.com/typewriter23/BioE-131.git
+   22  ls
+   23  cd BioE-131/
+   24  ls
+   25  vim README.md 
+   26  git add *
+   27  git commit -m "Edited markdown from BioE131 cluster"
+   28  git config --global user.email "typewriter23@berkeley.edu"
+   29  git config --global user.name "Jerry Yang"
+   30  git commit -m "Edited markdown from BioE131 cluster"
+   31  git push
+   32  portNum 
+   33  '
+   34  jupNotebook 
+   35  less .bashrc
+   36  jupyter notebook --no-browser --port 8843
+   37  jupyter notebook --no-browser --port 9743
+   38  jupyter notebook --no-browser --port 8843
+   39  jupyter notebook --no-browser --port 9743
+   40  l
+   41  ls
+   42  cd BioE-131/
+   43  jupNotebook 
+   44  jupyter notebook --no-browser --port 9743
+   45  ls
+   46  cd BioE-131/
+   47  LS
+   48  ls
+   49  cd ..
+   50  ls
+   51  cd ..
+   52  ls
+   53  cd ..
+   54  ls
+   55  cd ~
+   56  ls
+   57  cd ..
+   58  ls
+   59  cd ~
+   60  ls
+   61  jupNotebook 
+   62  jupyter notebook --no-browser --port 9743
+   63  ls
+   64  git add *
+   65  cd BioE-131/
+   66  ls
+   67  git add *
+   68  git commit -m "(Almost) completed Lab2"
+   69  git push
+   70  cd ..
+   71  ls
+   72  cd ..
+   73  ls
+   74  cd 5388958
+   75  cd ~
+   76  sudo pip install newick
+   77  pwd
+   78  sbatch
+   79  srun
+   80  exit
+   81  ls
+   82  jupNotebook 
+   83  jupyter notebook --no-browser --port 9743
+   84  ls
+   85  cd BioE-131/
+   86  ls
+   87  ls -a
+   88  git add *
+   89  git commit -m "Adding files for lab 2"
+   90  git push
+   91  exit
+   92  ls
+   93  cd BioE-131/
+   94  jupNotebook 
+   95  jupyter notebook --no-browser --port 9743
+   96  jupyter notebook --no-browser --port ​your_assigned_port
+   97  jupyter notebook --no-browser --port 8470
+   98  jupyter notebook --no-browser --port 8471
+   99  jupyter notebook --no-browser --port 8743
+  100  tmux end
+  101  tmux quot
+  102  tmux quit
+  103  jupyter notebook --no-browser --port 8743
+  104  tmux kill
+  105  tmux kill-session
+  106  ls
+  107  cd BioE-131/
+  108  ls
+  109  tmux a
+  110  jupNotebook 
+  111  git add *
+  112  git commit -m "Finished all required portions of Lab3"
+  113  git push
+  114  git pull
+  115  git push
+  116  ls
+  117* 
+  118  jupNotebook 
+  119   jupyter notebook --no-browser --port 8744
+  120  git add *
+  121  ls
+  122  cd BioE-131/
+  123  ls
+  124  git add *
+  125  git commit -m "worked on lab 4, not finished"
+  126* 
+  127  ls
+  128  ls -a
+  129  touch .gitignorw
+  130  touch .gitignore
+  131  vim .gitignor
+  132  vim .gitignore
+  133  ls
+  134  ls lab4
+  135  ls Lab4
+  136  vim .gitignore
+  137  git add *
+  138  git commit -m "added db to gitignore"
+  139  git push
+  140  git rm --cached Lab4/2019_9_29_Lab4_database.db
+  141  git commit -m "remove db from git"
+  142  git commit --amend -CHEAD
+  143  git push
+  144  rm Lab4/2019_9_29_Lab4_database.db
+  145  git commit --amend -CHEAD
+  146  git push
+  147  git status
+  148  rm Lab4/2019_9_29_Lab4_database.db
+  149  git rm --cached Lab4/2019_9_29_Lab4_database.db
+  150  git commit --amend -CHEAD
+  151  git push
+  152  git filter-branch --tree-filter 'rm -f Lab4/2019_9_29_Lab4_database.db' HEAD
+  153  git commit --amend -CHEAD
+  154  git rm --cached Lab4/2019_9_29_Lab4_database.db
+  155  git commit -m "removing db file from git history"
+  156  git push
+  157  git pull
+  158  git add .gitignore
+  159  git commit -m "adding gitignore"
+  160  git push
+  161  git pull -f
+  162  git pull --allow-unrelated-histories
+  163  ls
+  164  cd Lab4/
+  165  ls
+  166  git push
+  167  history > fixedLargeFileError.txt
