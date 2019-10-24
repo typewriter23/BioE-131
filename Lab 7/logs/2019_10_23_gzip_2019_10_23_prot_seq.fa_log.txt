@@ -1,0 +1,1 @@
+sh: gzip -c 2019_10_23_prot_seq.fa > zeros_100p.gz: command not found

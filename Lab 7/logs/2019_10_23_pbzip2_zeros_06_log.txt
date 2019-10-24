@@ -1,0 +1,1 @@
+sh: pbzip2 -k zeros_06: command not found

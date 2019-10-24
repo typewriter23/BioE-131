@@ -1,0 +1,1 @@
+sh: bzip2 -k zeros_06: command not found

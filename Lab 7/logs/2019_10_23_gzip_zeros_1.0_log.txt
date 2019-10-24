@@ -1,0 +1,1 @@
+sh: gzip -c zeros_1.0 > zeros_100p.gz: command not found

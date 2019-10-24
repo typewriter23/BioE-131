@@ -1,0 +1,1 @@
+sh: bzip2 -k 2019_10_23_prot_seq.fa: command not found
