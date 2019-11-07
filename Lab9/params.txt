@@ -1,0 +1,42 @@
+Command line: /home/softwares/SPAdes-3.13.1-Linux/bin/spades.py	-1	/data/Lab8_data/illumina_reads_R1.fastq	-2	/data/Lab8_data/illumina_reads_R2.fastq	--pacbio	/data/Lab8_data/pacbio_reads.fastq	-t	10	-o	/bigdata/home/5447414/BioE-131/Lab9	
+
+System information:
+  SPAdes version: 3.13.1
+  Python version: 2.7.16
+  OS: Linux-4.14.146-119.123.amzn2.x86_64-x86_64-with-glibc2.2.5
+
+Output dir: /bigdata/home/5447414/BioE-131/Lab9
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Multi-cell mode (you should set '--sc' flag if input data was obtained with MDA (single-cell) technology or --meta flag if processing metagenomic dataset)
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/data/Lab8_data/illumina_reads_R1.fastq']
+      right reads: ['/data/Lab8_data/illumina_reads_R2.fastq']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+    Library number: 2, library type: pacbio
+      left reads: not specified
+      right reads: not specified
+      interlaced reads: not specified
+      single reads: ['/data/Lab8_data/pacbio_reads.fastq']
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /bigdata/home/5447414/BioE-131/Lab9/tmp
+  Threads: 10
+  Memory limit (in Gb): 124
+

@@ -1,0 +1,9 @@
+- "left reads":
+  - "/data/Lab8_data/illumina_reads_R1.fastq"
+  "orientation": "fr"
+  "right reads":
+  - "/data/Lab8_data/illumina_reads_R2.fastq"
+  "type": "paired-end"
+- "single reads":
+  - "/data/Lab8_data/pacbio_reads.fastq"
+  "type": "pacbio"
